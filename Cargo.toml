@@ -6,3 +6,9 @@ edition = "2021"
 [dependencies]
 wgpu = { git = "https://github.com/sagudev/wgpu", branch = "extern-impl-experiment", default-features = false }
 wgpu_dummy = { path = "./wgpu_dummy" }
+vello = { git = "https://github.com/sagudev/vello", branch = "experiment", default-features = false, features = [
+    "wgpu",
+] }
+anyhow = "1.0.89"
+pollster = "0.3.0"
+winit = "0.30.5"
