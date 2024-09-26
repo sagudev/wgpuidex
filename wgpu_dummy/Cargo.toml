@@ -1,0 +1,8 @@
+[package]
+name = "wgpu_dummy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgt = { git = "https://github.com/sagudev/wgpu", branch = "extern-impl-experiment", default-features = false, package = "wgpu-types" }
+wgpu = { git = "https://github.com/sagudev/wgpu", branch = "extern-impl-experiment", default-features = false }

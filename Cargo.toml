@@ -1,0 +1,8 @@
+[package]
+name = "wgpuidex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = { git = "https://github.com/sagudev/wgpu", branch = "extern-impl-experiment", default-features = false }
+wgpu_dummy = { path = "./wgpu_dummy" }
